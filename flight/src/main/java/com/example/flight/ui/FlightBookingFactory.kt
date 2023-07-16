@@ -15,7 +15,7 @@ import com.example.dfmcrosssalemodule.di.GetDefaultFlightScreen
 import com.example.flight_contract.FlightBooking
 import com.example.flight_contract.FlightUser
 
-class FlightBookingImpl : FlightBooking {
+class FlightBookingFactory : FlightBooking {
     override fun getForm(user: FlightUser, context: Context): View {
         val inflater = LayoutInflater.from(context)
         val view = inflater.inflate(R.layout.default_form, null, false)

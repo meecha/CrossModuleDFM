@@ -15,7 +15,7 @@ import com.example.dfmcrosssalemodule.di.GetDefaultHotelScreen
 import com.example.hotel_contract.HotelBooking
 import com.example.hotel_contract.HotelUser
 
-class HotelBookingImpl : HotelBooking {
+class HotelBookingFactory : HotelBooking {
     override fun getForm(user: HotelUser, context: Context): View {
         val inflater = LayoutInflater.from(context)
         val view = inflater.inflate(R.layout.default_form, null, false)
