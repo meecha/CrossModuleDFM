@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/flight" />
+            <option value="$PROJECT_DIR$/hotel" />
           </set>
         </option>
       </GradleProjectSettings>

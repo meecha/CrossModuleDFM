@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DFM Cross sale module</string>
+    <string name="title_flight">flight</string>
+    <string name="title_hotel">hotel</string>
 </resources>
