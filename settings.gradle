@@ -16,3 +16,5 @@ rootProject.name = "DFM Cross sale module"
 include ':app'
 include ':flight'
 include ':hotel'
+include ':flight-contract'
+include ':hotel-contract'
