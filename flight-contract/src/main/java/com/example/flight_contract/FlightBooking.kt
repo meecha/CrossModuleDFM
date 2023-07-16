@@ -7,4 +7,4 @@ interface FlightBooking {
     fun getForm(user: FlightUser, context: Context) : View
 }
 
-data class FlightUser(val name :String)
+data class FlightUser(val name :String = "")

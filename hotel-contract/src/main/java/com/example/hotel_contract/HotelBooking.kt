@@ -7,4 +7,4 @@ interface HotelBooking {
     fun getForm(user: HotelUser, context: Context) : View
 }
 
-data class HotelUser(val name: String)
+data class HotelUser(val name: String = "")
