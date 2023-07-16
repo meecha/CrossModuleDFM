@@ -39,14 +39,14 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun HotelBookingForm(user: HotelUser) {
     AndroidView(factory = { context ->
-        DefaultHotelBooking().getForm(user, context)
+        TravelApplication.DI.manager.hotelBooking.getForm(user, context)
     })
 }
 
 @Composable
 fun FlightBookingForm(user: FlightUser) {
     AndroidView(factory = { context ->
-        DefaultFlightBooking().getForm(user, context)
+        TravelApplication.DI.manager.flightBooking.getForm(user, context)
     })
 }
 
